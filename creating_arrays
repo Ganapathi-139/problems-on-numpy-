@@ -1,0 +1,33 @@
+import numpy as np  # importing numpy as np(Alias name for numpy)
+
+# creating an array
+arr=np.array([10,20,30,40,50])
+print(arr)
+
+# Create an Array of Zeros
+# It creates floating point numbers
+zeros_array = np.zeros(5)
+print(zeros_array)
+
+# Creating an array of ones
+# It creates floating point numbers
+ones_array = np.ones(8)
+print(ones_array)
+
+# Random numbers
+# It generate the numbers from 0 to 1
+rand_array = np.random.rand(5)
+print(rand_array)
+
+# Create an Array of Your Choice
+my_array = np.array([7, 14, 21, 28, 35, 42, 49])
+print(my_array)
+
+# Identity Matrix
+identity_mat = np.eye(3)
+print(identity_mat)
+
+# Evenly Spaced Numbers
+# var=np.arange(start,stop,step)
+even_num = np.arange(0, 11, 2)
+print(even_num)
